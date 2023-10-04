@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    
+}
+.nagy-negyzet {
+    width: 1800px;
+    height: 800px;
+    border: 3px solid black;
+    position: relative;
+    margin: 60px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.feher-teglalap {
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+}
+.csoportosorarend {
+    font-size: 72px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    border: 1px solid white;
+    padding: 2px;
+    border-left: 10px;
+    background-color: white;
+}
+.tablazat {
+    justify-content: center;
+    transform: translateX(12%);
+    margin-top: 150px;
+    width: 80%;
+    text-align: center;
+
+}
+.tablazat td {
+    padding: 10px;
+    font-size: 22px;
+}
+.tablazat th
+{
+    padding: 10px;
+    font-size: 33px;
+    text-shadow: 2px 2px grey;
+}
+.hetvege-tablazat {
+    width: 50%;
+    justify-content: center;
+    transform: translateX(50%);
+    text-align: center;
+    margin-top: 40px;
+}
+.hetvege-tablazata{
+    padding: 10px;
+    font-size: 33px;
+    text-shadow: 2px 2px grey;
+}
+.hetvege-tablazat td {
+    padding: 10px;
+    font-size: 22px;
+}
+.hetvege-tablazat th{
+    padding: 10px;
+    font-size: 33px; 
+    background-color: rgba(255, 255, 255, 0.2);
+    text-shadow: 2px 2px grey;
+}
+.hetkoznapok{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.zoldszin{
+    color: white;
+    background-color: green;
+}
+.feketeszin{
+    color: white;
+    background-color: black;
+}
+.darkmodeonoff{
+    .zoldszin{
+        background-color: lightgreen;
+        color: black;
+    }
+    .feketeszin{
+        background-color: white;
+        color: black;
+    }
+
+    .csoportosorarend{
+        background-color: black;
+        color: white;
+    }
+
+    background-color: black;
+    color: white;
+}
+.button1{
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    height: 30px;
+    width: 145px;
+    margin-left: 2%;
+}
